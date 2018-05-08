@@ -6,6 +6,7 @@
   "dependencies": ["db"],
   "volumes": {
     "data": "/opt/liferay/data",
-    "osgi": "/opt/liferay/osgi"
+    "osgi": "/opt/liferay/osgi",
+    "staticdata": "/opt/staticdata"
   }
 }

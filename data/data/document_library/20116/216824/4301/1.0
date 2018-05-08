@@ -1,0 +1,535 @@
+
+.s2of12 {
+    float: left;
+    width: 33%;
+    padding: 10px 10px 0 0;
+    margin: 0;
+}
+
+
+
+.btn-back:hover {
+    color: #0067a1;
+}
+
+.icon {
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    text-decoration: inherit;
+    vertical-align: middle;
+    margin-right: .35em;
+}
+
+.btn-back {
+    color: #1b395f;
+}
+
+.icon-chevron_left:before, .ui-datepicker-prev span:before {
+    content: "<";
+}
+
+/*Esto es lo que coloca las pastillas bien!!*/
+form#form_makersLimited label.brand.errorToParent.fk-radio {
+    height: 110px;
+    width: 100%;
+}
+
+
+.fk-radio.brand {
+    padding-right: 4px;
+}
+.fk-radio, .fk-check {
+    padding: 10px 45px 10px 10px;
+}
+
+.funnel-header h1 {
+    color: #244c7f;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+}
+
+
+.fk-radio {
+    border-radius: 5px;
+}
+.brand {
+    text-align: center;
+    padding: 12px 4px;
+}
+.fk-radio, .fk-check {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background: #FFF;
+    padding: 12px;
+    border: 1px solid #CCC;
+    margin: 1px;
+    font-size: 15px;
+    text-align: center;
+    color: #333;
+    cursor: pointer;
+}
+
+.brand img {
+    pointer-events: none;
+    position: relative;
+    display: block;
+    margin: 0 auto 5px;
+}
+
+.fk-radio:before {
+    vertical-align: middle;
+    margin-right: .5em;    
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    text-decoration: inherit;
+    color: #244c7f;
+}
+
+
+.icon-chevron_right:before, .fk-radio:before, .ui-datepicker-next span:before {
+    content: ">";
+}
+.fk-radio:before, .fk-check:before {
+    content: ' ';
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 20px;
+}
+
+form.formikation .fk-select{
+    min-width:250px;
+    padding:8px 15px 4px 4px;
+    border:1px solid #ccc;
+    background:#fff;
+    border-radius:3px
+}
+form.formikation .fk-select:after{
+    content:url("../images/formikation-select-arrow.png");
+    display:block;
+    float:right;
+    padding:8px 12px;
+    margin:-8px -15px;
+    border-left:1px solid #CCC
+}
+form.formikation .fk-select .fk-select-label{
+    display:inline-block;
+    margin:0;
+    padding:0 30px 0 0;
+    color:#666;
+    max-width:430px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis
+}
+form.formikation .fk-select.fk-select-focus{
+    border-color:#000
+}
+form.formikation .fk-select.fk-select-focus:after{
+    border-color:#000
+}
+form.formikation .fk-select.fk-select-focus .fl-select-label{
+    color:#000
+}
+
+.fk-radio input, .fk-check input {
+    padding-top: 1px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    left: -9999px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+ 
+}
+
+button, input {
+    line-height: normal;
+}
+
+input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+}
+
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+
+.fk-radio.brand:hover, .more-brands:hover, .fk-radio.pay-check:hover {
+    outline: 2px solid #244c7f;
+}
+
+.fk-radio:hover {
+    color: #244c7f;
+}
+
+.fk-radio:hover {
+    color: #244c7f;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+}
+
+/**** FORMULARION *****/
+.img-container-mobile {
+    display: none!important;
+}
+.title-02-liberty {
+    font-size: 34px;
+    color: #244c7f;
+    font-weight: bold;
+}
+
+.persondata-title-02 {
+    margin: 0!important;
+    margin-bottom: 0!important;
+    padding: 20px 0!important;
+    font-size: 28px!important;
+    font-size: 1.75rem!important;
+    font-weight: 600!important;
+    line-height: 39px!important;
+    text-transform: inherit!important;
+}
+
+.row {
+    margin: 0 0 0 10px;
+}
+
+.ml-0px {
+    margin-left: 0;
+}
+
+
+.s6of12 {
+    float: left;
+    width: 50%;
+    padding: 10px 10px 0 0;
+    margin: 0;
+}
+
+.pl-10px {
+    padding-left: 10px!important;
+}
+
+.col-form {
+    display: table-cell;
+    float: none;
+    padding-bottom: 30px;
+}
+.ajuste-ptpl-0px {
+    padding-top: 0;
+}
+.s6of12 {
+    width: 50%;
+    padding: 10px 10px 0 0;
+    margin: 0;
+}
+
+.field label {
+    margin: 5px 10px 10px 0;
+}
+.field label {
+    display: block;
+    color: #333;
+}
+
+.field {
+    overflow: hidden;
+}
+
+.pt-5px {
+    padding-top: 5px;
+}
+
+.s12of12 {
+    float: left;
+    width: 100%;
+    padding: 40px 10px 0 0;
+    margin: 0;
+}
+
+.special-field {
+    padding-left: 80px;
+    position: relative;
+}
+
+.special-field .select-group {
+    width: 80px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.select-group .has-fk-select {
+    z-index: 2;
+}
+
+.select-group select {
+    width: 100%!important;
+    border: 0;
+}
+
+button, select {
+    text-transform: none;
+}
+
+select {
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    color: black;
+    background-color: white;
+    cursor: default;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.select-group .fk-select {
+    border-radius: 5px;
+}
+
+.field.text input {
+    border-radius: 5px;
+}
+
+.field.text input {
+    display: block;
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #CCC;
+    outline: 0;
+    box-shadow: 0 0 0 transparent, inset 0 0 0 transparent;
+    font-size: 15px;
+}
+
+button, input {
+    line-height: normal;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    margin: 0;
+}
+
+.invisible {
+    display: none!important;
+}
+
+#lopdConditions, #personData, #sendIntermediary, #mainSaveQuoteVehicle #userSuggestion {
+    overflow: hidden;
+}
+
+div.popup p.title, div.popup h2.title {
+    background: #244c7f;
+}
+
+div.popup p.title, div.popup h2.title {
+    color: #FFF;
+    padding: 10px 40px 10px 30px;
+    margin: 0 0 .5em;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+div.popup .field {
+    margin-top: 0;
+}
+
+label.normal.fk-check {
+    font-size: 1em;
+    margin-left: 0;
+}
+
+.fk-radio input, .fk-check input {
+    padding-top: 1px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    left: -9999px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+button, input {
+    line-height: normal;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+}
+
+div.content button.btn-next, div.content button.btn-next:hover:enabled {
+    font-weight: inherit;
+    text-shadow: none;
+}
+
+.mb-55px {
+    margin-bottom: 55px;
+}
+
+.mt-10px {
+    margin-top: 10px;
+}
+
+.w-100 {
+    width: 100%;
+}
+.btn-next {
+    background: #d58400;
+    color: #FFF;
+}
+.btn-next, .btn-back {
+    display: inline-block;
+    padding: 15px 10px 12px;
+    text-transform: uppercase;
+    border: 0;
+    outline: 0;
+    font-size: 15px;
+    border-radius: 4px;
+    text-align: center;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		

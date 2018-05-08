@@ -1,0 +1,13 @@
+<#if show_chat_bot && show_sign_in>
+
+</#if>
+
+
+la setting en look-amnd-feel.xml:
+
+	<setting configurable="true" key="show-chat-bot" type="checkbox" value="false" />
+
+
+la setting se recoge en init_custom
+
+	<#assign show_chat_bot = getterUtil.getBoolean(themeDisplay.getThemeSetting("show-chat-bot")) />

@@ -1,0 +1,29 @@
+Agregar esto en el _custom.scss:
+
+
+.control-menu-level-1-nav .control-menu-nav {
+	position: absolute;
+    background: #4773A8;
+    height: 32px;
+    left: -64px;
+    opacity: 0.3;
+    top: 171px;
+    transform: rotate(90deg);
+    width: 174px;
+
+    &:hover {
+    	opacity: 1;
+    }
+
+    .sites-control-group {
+    	transform: rotate(-90deg);
+    }
+
+    .tools-control-group {
+    	display: none;
+    }
+}
+
+#wrapper {
+	margin-top: 0;
+}

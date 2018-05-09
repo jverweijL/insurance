@@ -1,6 +1,0 @@
-{
-    "id": "data",
-    "volumes": {
-        "staticdata": "/opt/staticdata"
-      }
-  }

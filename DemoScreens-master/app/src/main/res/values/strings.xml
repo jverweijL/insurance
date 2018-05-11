@@ -1,0 +1,26 @@
+<resources>
+
+	<string name="navigation_drawer_open">Open navigation drawer</string>
+	<string name="navigation_drawer_close">Close navigation drawer</string>
+
+	<string name="set_the_position_of_the_incidence">Set the position of the incidence</string>
+	<string name="next">Next</string>
+	<string name="back">Back</string>
+	<string name="go_to_maps">Go to maps</string>
+	<string name="report_incidence">Report Issue</string>
+	<string name="incidence">Issues</string>
+	<string name="contact">Chatbot</string>
+	<string name="help_arrived">Help just arrived</string>
+	<string name="help_is_on_the_way">Help is on the way!</string>
+	<string name="inform">Inform our employee about your situation</string>
+    <string name="incidence_item_text">Issue %1$d</string>
+    <string name="date_item_text">Date %1$s</string>
+    <string name="registration_item_text">Issue %1$s</string>
+	<string name="app_name">Liferay Mutual</string>
+	<string name="news">Home</string>
+	<string name="exit">Exit</string>
+
+	<string name="notification_title">Insurance</string>
+	<string name="notification_description">Helps is on the way. Click here to see more details</string>
+
+</resources>

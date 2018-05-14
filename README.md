@@ -6,9 +6,9 @@
 # Steps required after deploying the services
 
 ```
-we shell -s liferay -p liberty007
+we shell -s liferay -p liberty
 cd /wedeploy-container/data
 cp -r * /opt/liferay/data/document_library
 exit
-we restart -s liferay -p liberty007
+we restart -s liferay -p liberty
 ```

@@ -1,2 +1,2 @@
 we login
-we deploy -p liberty007
+we deploy -p liberty

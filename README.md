@@ -7,7 +7,7 @@
 
 ```
 we shell -s liferay -p liberty
-cd /wedeploy-container/data
+cd /wedeploy-container/staticdata
 cp -r * /opt/liferay/data/document_library
 exit
 we restart -s liferay -p liberty

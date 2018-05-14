@@ -13,17 +13,16 @@ unzip $ZIPPED_BUNDLE -d $BASE_DIR
 
 cp liferay/portal-ext.properties $BASE_DIR/liferay-dxp-digital-enterprise-7.0-sp7
 
+# Make some changes to the local portal-ext.properties
 sed -i 's/jdbc:mysql:\/\/db\//jdbc:mysql:\/\/localhost\//g' $BASE_DIR/liferay-dxp-digital-enterprise-7.0-sp7/portal-ext.properties
 sed -i "s/jdbc.default.password=.*$/jdbc.default.password=${PASSWORD}/g" $BASE_DIR/liferay-dxp-digital-enterprise-7.0-sp7/portal-ext.properties
 sed -i 's/web.server.protocol=https/web.server.protocol=http/g' $BASE_DIR/liferay-dxp-digital-enterprise-7.0-sp7/portal-ext.properties
 
-#mkdir $BASE_DIR/liferay-dxp-digital-enterprise-7.0-sp7/deploy
+# Copy the deploy folder to the local instance
 cp -r liferay/deploy $BASE_DIR/liferay-dxp-digital-enterprise-7.0-sp7
 
-# Copy documents and media lib??
+# Copy document_library
 cp -r liferay/staticdata/document_library $BASE_DIR/liferay-dxp-digital-enterprise-7.0-sp7/data
-
-## Change some ports in tomcat??
 
 ## Start the bundle??
 read -e -p "Start the demo? " -i "yes" answer
